@@ -16,7 +16,9 @@ Instead, the resources are distributed according to the following:
 
 Ice and boulders are still available in most places.
 
-Asteroids have silver and iron, just like Scarce Resources.
+Asteroids have silver and iron, just like Scarce Resources. 
+
+Update: Asteroid ore spawning is configurable as of v0.2. Edit `%AppData%\SpaceEngineers\Saves\<YOUR_SAVE>\Sparse Scattered Resources_SparseScatteredResourcesMod\Settings.xml` after loading a world with the mod enabled.
 
 Similar to Procedurally Generated Ore, resource patches spawn differently to vanilla. Instead of completely replacing the vanilla spawning, however, this mod takes a different approach.
 
