@@ -28,7 +28,11 @@ The pattern used to pick which patches to remove follows a Perlin noise pattern,
 
 # Running the Manipulator Script
 
-This mod's source contains a few scripts used to copy the base game's planet data images and delete resources from them. You can use these scripts to integrate this mod with custom worlds, or if you just want custom resource settings, or to mess with the resource deletion algorithm.
+The game's resource generation and planet terrain is based on images describing properties across the surface of the planet. This mod's source contains a few scripts used to manipulate these images to achieve its aim of deleting resources. 
+
+You can use these scripts to integrate this mod with custom worlds, or if you just want custom resource settings, or to mess with the resource deletion algorithm. 
+
+NOTE: You will need to be familiar with modding Space Engineers in general in order to be able to use the output of these scripts. It is not the job of this README to explain everything about how to mod the game. A good place to get started with modding Space Engineers is the Keen Software Discord server. 
 
 - `copy_source_images.sh`: Copies base game planet data files into a subdirectory in the source directory.
 - `process_images.sh`: Runs the manipulator Python script on the images copied in the previous step, producing a new directory with the processed images. Requires an installation of Anaconda in the expected location; you will probably have to tweak the script for your system if you want to run this.
